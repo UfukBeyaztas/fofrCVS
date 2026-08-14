@@ -24,10 +24,7 @@ $$
 Y_i^{(k)}(t)-\mu_Y^{(k)}(t) = \sum_{p=1}^{P}\int_{\mathcal S} \{X_{ip}^{(k)}(s)-\mu_{X_p}^{(k)}(s)\} \beta_p^{(k)}(s,t) ds +\{\boldsymbol w_i^{(k)}-\boldsymbol\mu_W^{(k)}\}^{\mathsf T} \boldsymbol\alpha^{(k)}(t) +\varepsilon_i^{(k)}(t).
 $$
 
-Study 0 is the target and studies \(1,\ldots,K\) are sources. Functional
-predictors and responses are represented in common predictor and response
-bases, while the local coefficient surfaces are estimated by penalized least
-squares.
+Study 0 is the target and studies $1,\ldots,K$ are sources. Functional predictors and responses are represented in common predictor and response bases, while the local coefficient surfaces are estimated by penalized least squares.
 
 Three estimators are available:
 
