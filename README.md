@@ -308,33 +308,6 @@ help(package = "fofrCVS")
 - Coefficient surfaces can be weakly identifiable even when predictions are
   accurate. Estimation and prediction should therefore be assessed jointly.
 
-## Citation
-
-If you use `fofrCVS` in research, please cite the accompanying manuscript:
-
-> Beyaztas, U., Mutis, M., Gurer, S. and Bandyopadhyay, S. (2026).
-> *Transfer learning by control variates for function-on-function linear
-> regression*. Manuscript.
-
-BibTeX entry:
-
-```bibtex
-@unpublished{BeyaztasEtAl2026,
-  author = {Beyaztas, Ufuk and Mutis, Muge and Gurer, Sude and
-            Bandyopadhyay, Soutir},
-  title  = {Transfer Learning by Control Variates for
-            Function-on-Function Linear Regression},
-  year   = {2026},
-  note   = {Manuscript}
-}
-```
-
-## Authors
-
-The methodology was developed by Ufuk Beyaztas, Muge Mutis, Sude Gurer, and
-Soutir Bandyopadhyay. The R package is maintained by
-[Ufuk Beyaztas](https://github.com/UfukBeyaztas).
-
 ## License
 
 `fofrCVS` is distributed under the
