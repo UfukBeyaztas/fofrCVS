@@ -1,0 +1,28 @@
+Package: fofrCVS
+Type: Package
+Title: Control-Variates Transfer Learning for Function-on-Function Regression
+Version: 1.0.0
+Authors@R: person(
+    "Ufuk", "Beyaztas",
+    email = "ufukbeyaztas@gmail.com",
+    role = c("aut", "cre", "cph"),
+    comment = c(ORCID = "0000-0002-5208-4950")
+  )
+Description: Implements target-only, feasible control-variates (CVS), and
+    penalized control-variates (pCVS) estimators for function-on-function
+    linear regression with multiple functional predictors and scalar
+    covariates. Local models are represented in common predictor and response
+    bases and fitted by penalized least squares. Study-level coefficient,
+    plug-in mean, and covariance summaries can be combined without
+    transferring subject-level observations, while a group penalty in the
+    integrated coefficient-function geometry protects against negative
+    transfer. The package provides centralized and distributed fitting
+    interfaces, coefficient extraction and reconstruction, prediction,
+    numerical diagnostics, and simulation-based data generation.
+Depends: R (>= 3.5.0)
+Imports:
+    splines,
+    stats
+License: GPL-3
+Encoding: UTF-8
+ByteCompile: true

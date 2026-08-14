@@ -1,0 +1,15 @@
+S3method(coef,cvs_fofr_fit)
+S3method(predict,cvs_fofr_fit)
+S3method(print,cvs_fofr_fit)
+
+export(fofr_basis)
+export(fit_local_fofr)
+export(fofr_site_summary)
+export(combine_cvs_fofr)
+export(fit_cvs_fofr)
+export(coefficient_surface)
+export(scalar_effect)
+export(simulate_fofr_data)
+
+importFrom(splines,bs,splineDesign)
+importFrom(stats,approx,coef,predict,rbinom,rnorm)
